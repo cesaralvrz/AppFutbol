@@ -1,0 +1,19 @@
+.jumbotron {
+    background-image: url("/assets/img/background2.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+    margin-bottom: -50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+}
+#item{
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}

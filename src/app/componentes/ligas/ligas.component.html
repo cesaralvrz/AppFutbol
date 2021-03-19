@@ -1,0 +1,19 @@
+<!-- <ul *ngFor='let liga of listadoLigas; let indice = index'>
+    <li>{{indice +1}}</li>
+    <li>{{liga.nombre}}</li>
+    <li>{{liga.pais}}</li>
+    assets/img/background.svg
+</ul> -->
+<!-- <div id="fondo" class="bg-image" style="background-image: url('assets/img/background2.svg');
+      height: 85vh"> -->
+<div class="jumbotron">
+    <div class="container">
+        <div id="item" class="card border border-dark" style="width: 18rem;" *ngFor='let liga of listadoLigas'>
+            <div class="card-body">
+            <h5 class="card-title">{{liga.nombre}}</h5>
+            <p class="card-text">{{liga.pais}}</p>
+            <a [routerLink]="['/liga', liga.id]" class="btn btn-success">Ver Liga</a>
+            </div>
+        </div>
+    </div>
+</div>

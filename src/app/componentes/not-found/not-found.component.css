@@ -1,0 +1,13 @@
+.jumbotron {
+    background-image: url("/assets/img/background.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    margin-bottom: -50px;
+}
+
+#banner{
+    margin-top: 6%;
+}
