@@ -18,7 +18,13 @@ export class DetalleLigaComponent implements OnInit {
 
   ngOnInit(): void {
     this.id = this.route.snapshot.params['id']; // Recupero parámetro id de la URL
-    this.ligaa = this.ligasService.obtenerLiga(this.id);
+
+    this.ligasService.devolverLiga()
+      .subscribe( datos => {
+        console.log(datos);
+        console.log(this.id);
+        this.ligaa = datos;
+      });
   }
   volver(){
     this.location.back();
