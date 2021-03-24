@@ -1,0 +1,30 @@
+<div class="container">
+    <h2>Buscador de equipos:</h2>
+    <div class="input-group mb-3">
+        <div class="input-group-text">
+            <span class="input-group text">Equipo:</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Introduce el nombre del equipo..." 
+        #equipoBuscado
+        id="equipoBuscado"
+        (keydown.enter)='buscarEquipo(equipoBuscado)'>
+    </div>
+
+    <div id="infoEquipo" *ngIf="equipo">
+        <div class="row">
+            <div class="col-3">
+                <img [src]="equipo.strTeamBadge" class="escudo" alt="escudo del equipo">
+            </div>
+            <div class="col-6">
+                <h2>{{equipo.strAlternate}}</h2>
+                <ul>
+                    <li>País: {{equipo.strCountry}}</li>
+                    <li>Liga: {{equipo.strLeague}}</li>
+                    <li>Estadio: {{equipo.strStadium}}</li>
+                    <li>Capacidad del estadio: {{equipo.intStadiumCapacity}}</li> 
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,3 +1,13 @@
-<p>detalle-liga works!</p>
+<h2>Detalles de la liga:</h2>
+<!-- *ngFor="let equipo of listadoEquipos, let i = index"
+     *ngIf="listadoEquipos" -->
+<div *ngFor="let equipo of listadoEquipos, let i = index">
+    <h3>{{equipo.strTeam}}</h3>
+    <ul>
+        <img [src]="equipo.strTeamBadge" class="escudo" alt="escudo del equipo">
+        <li>Estadio: {{equipo.strStadium}}</li>
+        <li>Capacidad del estadio: {{equipo.intStadiumCapacity}}</li>
+    </ul>
+</div>
 
 <button class="btn btn-success" (click)="volver()">Volver</button>

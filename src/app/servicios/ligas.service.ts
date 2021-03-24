@@ -22,8 +22,8 @@ export class LigasService {
 
   // Aquí ahora hay que llamar a la API para sacar la información
 
-  devolverLiga(){
-    return this.http.get('https://www.thesportsdb.com/api/v1/json/1/lookup_all_teams.php?id=' + this.id);
+  devolverLiga(id:string):Observable <any>{
+    return this.http.get('https://www.thesportsdb.com/api/v1/json/1/lookup_all_teams.php?id=' + id);
 
   }
 }

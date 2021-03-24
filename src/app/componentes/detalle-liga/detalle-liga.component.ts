@@ -10,20 +10,19 @@ import { LigasService } from 'src/app/servicios/ligas.service';
 })
 export class DetalleLigaComponent implements OnInit {
 
-  ligaa;
+  listadoEquipos;
   id;
 
-  constructor(private ligasService: LigasService, private route: ActivatedRoute,
+  constructor(private $ligasService: LigasService, private route: ActivatedRoute,
     private location: Location) { }
 
   ngOnInit(): void {
     this.id = this.route.snapshot.params['id']; // Recupero parámetro id de la URL
 
-    this.ligasService.devolverLiga()
-      .subscribe( datos => {
-        console.log(datos);
-        console.log(this.id);
-        this.ligaa = datos;
+    this.$ligasService.devolverLiga(this.id)
+      .subscribe(datosEquipos => {
+        console.log(datosEquipos.teams[0]);
+        this.listadoEquipos = datosEquipos.teams;
       });
   }
   volver(){

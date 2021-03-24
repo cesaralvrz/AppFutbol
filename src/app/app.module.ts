@@ -16,6 +16,7 @@ import { NotFoundComponent } from './componentes/not-found/not-found.component';
 import { PrincipalComponent } from './componentes/principal/principal.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { DetalleLigaComponent } from './componentes/detalle-liga/detalle-liga.component';
+import { EquiposComponent } from './componentes/equipos/equipos.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DetalleLigaComponent } from './componentes/detalle-liga/detalle-liga.co
     NotFoundComponent,
     PrincipalComponent,
     FooterComponent,
-    DetalleLigaComponent
+    DetalleLigaComponent,
+    EquiposComponent
   ],
   imports: [
     BrowserModule,
