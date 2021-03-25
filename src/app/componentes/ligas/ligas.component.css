@@ -7,7 +7,7 @@
     height: 780px;
     margin-bottom: -50px;
 }
-.container{
+#contenedor{
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: center;

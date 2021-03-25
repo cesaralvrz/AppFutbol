@@ -7,7 +7,7 @@
 <!-- <div id="fondo" class="bg-image" style="background-image: url('assets/img/background2.svg');
       height: 85vh"> -->
 <div class="jumbotron">
-    <div class="container">
+    <div id="contenedor" class="container">
         <div id="item" class="card border border-dark" style="width: 18rem;" *ngFor='let liga of listadoLigas'>
             <div class="card-body">
             <h5 class="card-title">{{liga.nombre}}</h5>
@@ -17,3 +17,4 @@
         </div>
     </div>
 </div>
+

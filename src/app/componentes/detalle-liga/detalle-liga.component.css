@@ -1,3 +1,8 @@
 .escudo{
     height: 50px;
 }
+#contenedor{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+}

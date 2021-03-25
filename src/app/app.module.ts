@@ -18,6 +18,7 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { DetalleLigaComponent } from './componentes/detalle-liga/detalle-liga.component';
 import { EquiposComponent } from './componentes/equipos/equipos.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

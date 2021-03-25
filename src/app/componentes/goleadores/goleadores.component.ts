@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { JugadoresService } from 'src/app/servicios/jugadores.service';
 
 @Component({
   selector: 'app-goleadores',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GoleadoresComponent implements OnInit {
 
-  constructor() { }
+  jugador;
+
+  constructor(private $jugadores: JugadoresService) { }
 
   ngOnInit(): void {
+  }
+
+  buscarJugador(jugadorBuscado){
+    this.$jugadores.buscarJugador(jugadorBuscado.value)
+      .subscribe(datosJugador =>{
+        console.log(datosJugador.player[0]);
+        this.jugador = datosJugador.player[0];
+      })
   }
 
 }
