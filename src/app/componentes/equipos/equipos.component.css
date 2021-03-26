@@ -10,7 +10,10 @@
 
 #contenedor{
     background-color: white;
-    height: 410px;
+}
+
+#input{
+    padding-bottom: 2%;
 }
 
 h2{
@@ -21,10 +24,5 @@ h2{
 
 .escudo{
     max-width: 100%;
-}
-
-#sector-equipo{
-    margin-top: 2%;
-    background-color: white;
 }
 
