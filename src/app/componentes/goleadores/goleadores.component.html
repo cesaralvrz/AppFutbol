@@ -1,31 +1,33 @@
-<div class="container">
-    <h2>Buscador de jugadores:</h2>
-    <div class="input-group mb-3">
-        <div class="input-group-text">
-            <span class="input-group text">Jugador:</span>
-        </div>
-        <input type="text" class="form-control" placeholder="Introduce el nombre del jugador..." 
-        #jugadorBuscado
-        id="jugadorBuscado"
-        (keydown.enter)='buscarJugador(jugadorBuscado)'>
-    </div>
-
-    <div id="infoJugador" *ngIf="jugador">
-        <div class="row">
-            <div class="col-3">
-                <img [src]="jugador.strCutout" class="jugador" alt="foto del jugador"> 
+<div class="jumbotron">
+    <div class="container">
+        <h2>Buscador de jugadores:</h2>
+        <div class="input-group mb-3">
+            <div class="input-group-text">
+                <span class="input-group text">Jugador:</span>
             </div>
-            <div class="col-6">
-                <h2>{{jugador.strPlayer}}</h2>
-                <ul>
-                    <li>Equipo: {{jugador.strTeam}}</li>
-                    <li>País: {{jugador.strNationality}}</li>
-                    <li>Posición: {{jugador.strPosition}}</li>
-                    <li>Fecha de Nacimiento: {{jugador.dateBorn}}</li> 
-                    <li>Estatura: {{jugador.strHeight}}</li> 
-                </ul>
-            </div>
+            <input type="text" class="form-control" placeholder="Introduce el nombre del jugador..." 
+            #jugadorBuscado
+            id="jugadorBuscado"
+            (keydown.enter)='buscarJugador(jugadorBuscado)'>
         </div>
 
+        <div id="infoJugador" *ngIf="jugador">
+            <div class="row">
+                <div class="col-3">
+                    <img [src]="jugador.strCutout" class="jugador" alt="foto del jugador"> 
+                </div>
+                <div class="col-6">
+                    <h2>{{jugador.strPlayer}}</h2>
+                    <ul>
+                        <li>Equipo: {{jugador.strTeam}}</li>
+                        <li>País: {{jugador.strNationality}}</li>
+                        <li>Posición: {{jugador.strPosition}}</li>
+                        <li>Fecha de Nacimiento: {{jugador.dateBorn}}</li> 
+                        <li>Estatura: {{jugador.strHeight}}</li> 
+                    </ul>
+                </div>
+            </div>
+
+        </div>
     </div>
 </div>
