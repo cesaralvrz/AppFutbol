@@ -1,5 +1,24 @@
-.jumbotron{
-    height: 720px;
+.jumbotron {
+    background-image: url("/assets/img/background6.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+    margin-bottom: -10px;
+}
+#contenedor{
+    background-color: white;
+}
+
+#input{
+    padding-bottom: 2%;
+}
+
+h2{
+    padding-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 1.5%;
 }
 
 .jugador{
