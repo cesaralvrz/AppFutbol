@@ -25,8 +25,8 @@ Link de la aplicación: https://appfutbol-27128.web.app/
 3. Buscar jugadores.
 4. Buscar equipos
 
-![AppFutbol](https://github.com/cesaralvrz/AppFutbol/blob/main/assets/1.png)
 ![AppFutbol](https://github.com/cesaralvrz/AppFutbol/blob/main/assets/2.png)
 ![AppFutbol](https://github.com/cesaralvrz/AppFutbol/blob/main/assets/3.png)
+![AppFutbol](https://github.com/cesaralvrz/AppFutbol/blob/main/assets/4.png)
 
 
