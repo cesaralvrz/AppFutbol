@@ -1,10 +1,13 @@
-# AppFútbol
+<div align="center"> 
+# ⚽ AppFútbol ⚽
 
 AppFútbol es una aplicación web desarrollada con Angular, Bootstrap y Firebase, que mediante una API de fútbol recopila toda su información para mostrarla a sus usuarios.
 
 Link de la aplicación: https://appfutbol-27128.web.app/
 
 ![AppFutbol](https://github.com/cesaralvrz/AppFutbol/blob/main/assets/1.png)
+
+</div>
 
 ## Tecnologías utilizadas:
 
