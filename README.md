@@ -1,27 +1,20 @@
-# AppFutbol
+# AppFútbol
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0
+AppFútbol es una aplicación web desarrollada con Angular, Bootstrap y Firebase, que mediante una API de fútbol recopila toda su información para mostrarla a sus usuarios.
 
-## Development server
+Link de la aplicación: https://appfutbol-27128.web.app/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![AppFutbol](http://url/to/img.png)
 
-## Code scaffolding
+## Tecnologías utilizadas:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
+<code><img height="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"></code>
 
-## Build
+* Se utilizó la API: [TheSportsDB](https://www.thesportsdb.com/api.php) para recolectar la información.
+* Se utilzó la base de datos de Firestore (Firebase) para alojar las ligas destacadas.
+* La aplicación esta alojada en un servidor de Firebase.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
