@@ -1,8 +1,38 @@
+.jumbotron {
+    background-image: url("/assets/img/background5.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-bottom: -10px;
+}
 .escudo{
     height: 50px;
+}
+#container{
+    background-color: white;
+    width: 55%;
+}
+h2{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 22px;
 }
 #contenedor{
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: center;
 }
+
+#volver{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    #container{
+        width: 80%;
+    }
+  }

@@ -17,3 +17,11 @@
     margin-right: 40px;
     margin-bottom: 20px;
 }
+@media only screen and (max-width: 700px) {
+    #contenedor{
+        grid-template-columns: repeat(1, auto);
+    }
+    .jumbotron{
+        height: 100%;
+    }
+  }

@@ -5,16 +5,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 780px;
-    margin-bottom: -50px;
 }
 
 #banner{
     margin-top: 9%;
 }
 
-#boton1{
-    margin-right: 10px;
-}
-#boton2{
+#boton1, #boton2, #boton3{
     margin-right: 10px;
 }
